@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tele de Login</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style_divace.css">
+</head>
+<body>
+    <main>
+        <section>
+
+            <div id="id_div_img">
+                <!-- AQUI FICA A IMAGEN -->
+            </div>
+
+            <div id="id_form">
+                <h1>Tela de Login</h1>
+                <p>Por favor, digite seu login e senha, para ter acesso ao perfil de sua conta.</p> 
+                <form action="form.js" autocomplete="on">
+                    <div id="id_dados">
+                        <div>
+                            <label for="id_username" >Login:</label>
+                            <input type="name" id="id_username" autocomplete="username" placeholder="Digite seu username" required maxlength="30">
+                        </div>
+
+                        <div>
+                            <label for="id_password">Senha:</label>
+                            <input type="password" name="password" id="id_password" placeholder="Digite sua senha" required minlength="8" maxlength="15">
+                        </div>
+                    </div>
+
+                    <div id="bottons">
+                        <input type="submit" value="Entrar">
+                        <a href="#">Esqueci minha senha</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
